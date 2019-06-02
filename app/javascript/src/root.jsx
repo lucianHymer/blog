@@ -6,7 +6,7 @@ import { Grid, } from '@material-ui/core'
 
 import AppBar from './components/app_bar'
 import AppBody from './components/app_body'
-import BoxCard from './components/box_card'
+import posts from '../blogPosts/posts'
 
 const theme = createMuiTheme({
   typography: {
@@ -21,9 +21,9 @@ function Root(props){
 				<AppBar />
         <AppBody>
           <div style={{flexGrow: 1,}}>
-            <Grid container direction='row' justify='center' spacing={16}>
-              <Grid item xs={10} sm={6} md={4} >
-                <BoxCard />
+            <Grid container direction='row' justify='center' spacing={2}>
+              <Grid item xs={12} sm={10} md={8} xl={6} >
+                {posts}
               </Grid>
             </Grid>
           </div>

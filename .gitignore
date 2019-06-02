@@ -10,6 +10,8 @@
 *.swp
 *.swa
 
+app/javascript/blogPosts
+
 /log/*
 /tmp/*
 !/log/.keep
