@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Blog</title>
+    <title>PackedApp</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <!-- Use minimum-scale=1 to enable GPU rasterization -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=0, maximum-scale=1, minimum-scale=1"
+    />
+    <%= javascript_pack_tag 'application' %>
   </head>
 
   <body>

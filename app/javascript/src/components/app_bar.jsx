@@ -26,7 +26,7 @@ class AppBar extends React.Component {
         <MuiAppBar position="static">
           <Toolbar>
             <Typography className={classes.title} variant="h6" color="inherit" noWrap>
-              Packed
+              Lucian's Blog
             </Typography>
           </Toolbar>
         </MuiAppBar>
