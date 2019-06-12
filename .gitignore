@@ -12,6 +12,8 @@
 
 app/javascript/blogPosts
 
+app/assets/public/pdf/Lucian Hymer Resume.pdf
+
 /log/*
 /tmp/*
 !/log/.keep
